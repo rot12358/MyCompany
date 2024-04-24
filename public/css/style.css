@@ -1,0 +1,47 @@
+#tieude{
+    font-weight: 600;
+    font-size: 23px;
+    color: blue;
+}
+
+.logo {
+    float: right;
+    margin-left: 10px; /* Tạo khoảng cách giữa logo và nội dung */
+}
+.logo {
+    text-align: right;
+}
+
+/* Thiết lập phần định dạng cho phần nội dung */
+.content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 70%; /* Chiếm 70% chiều rộng của màn hình */
+    float: left; /* Đẩy phần nội dung về phía bên phải */
+}
+
+/* Thiết lập phần định dạng cho phần danh sách logo */
+.logo-list {
+    width: 30%; /* Chiếm 30% chiều rộng của màn hình */
+    float: right; /* Đẩy phần danh sách logo về phía bên trái */
+}
+
+/* Thiết lập chiều rộng tối đa của logo */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Thiết lập khoảng cách giữa các logo */
+.logo {
+    margin-bottom: 20px;
+}
+
+/* Xóa float để ngăn cản làm ảnh hưởng tới các phần khác */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
